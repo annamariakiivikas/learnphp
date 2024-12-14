@@ -8,8 +8,8 @@
             <th>Body</th>
         </thead>
         <tbody>
-            <td><?= $post->title ?></td>
             <td><?= $post->id ?></td>
+            <td><?= $post->title ?></td>
             <td><?= $post->body ?></td>
         </tbody>
     </table>

@@ -45,6 +45,7 @@ class PostsController
     }
 
     public function show(){
-        
+        $post = Post::find($_GET['id']);
+        view('posts/edit', compact('post'));
     }
 }
